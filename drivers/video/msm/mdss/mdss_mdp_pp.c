@@ -2039,7 +2039,7 @@ int mdss_mdp_pp_init(struct device *dev)
 #ifdef CONFIG_LCD_KCAL
 	if (!ret) {
 		mdss_mdp_pp_argc();
-		update_preset_lcdc_lut(255, 255, 255);
+		update_preset_lcdc_lut(235, 240, 255);
 	}
 #endif
 	mutex_unlock(&mdss_pp_mutex);
