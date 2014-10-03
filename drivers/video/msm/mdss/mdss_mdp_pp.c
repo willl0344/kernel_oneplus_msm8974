@@ -1944,8 +1944,6 @@ static void mdss_mdp_pp_argc(void)
 
 	pgc_config->flags |= MDP_PP_OPS_WRITE;
 	pgc_config->flags |= MDP_PP_OPS_ENABLE;
-
-	pr_info(">>>>> %s \n", __func__);
 }
 
 #define SCALED_BY_KCAL(rgb, kcal) \
@@ -1977,8 +1975,6 @@ static int mdss_mdp_pp_argc_kcal(int kr, int kg, int kb)
 	pgc_config->flags |= MDP_PP_OPS_WRITE;
 	pgc_config->flags |= MDP_PP_OPS_ENABLE;
 	mdss_pp_res->pp_disp_flags[disp_num] |= PP_FLAGS_DIRTY_PGC;
-
-	pr_info(">>>>> %s \n", __func__);
 
 	return 0;
 }
