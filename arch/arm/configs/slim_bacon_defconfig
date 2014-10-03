@@ -696,7 +696,6 @@ CONFIG_CMDLINE=""
 #
 # CPU Power Management
 #
-CONFIG_INTELLI_PLUG=y
 
 #
 # CPU Frequency scaling
